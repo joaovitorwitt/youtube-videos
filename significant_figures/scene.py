@@ -18,12 +18,11 @@ class OpeningQuote(Scene):
             "— Max Planck"
         )
 
-        author.set_color(YELLOW)
+        author.set_color(BLUE)
         author.next_to(quote, DOWN, buff=0.5)
 
         self.play(Write(quote, run_time=2))
-        self.wait(1)
-        self.play(Write(author, run_time=4))
+        self.play(Write(author, run_time=3))
 
         self.wait()
 
@@ -31,3 +30,13 @@ class OpeningQuote(Scene):
 class HistoricalContext(Scene):
     def construct(self):
         pass
+
+
+class CalculatingArea(Scene):
+    def construct(self):
+        rectangle = Rectangle(color=BLUE, fill_opacity=0.5, stroke_width=5)
+        self.play(rectangle.animate.move_to(RIGHT * 3))
+        self.play(rectangle.animate.scale(0.3))
+        self.wait(1)
+
+
