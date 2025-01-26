@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/João Vitor Witt/OneDrive/Documentos/GitHub/videos/2025/logic/media/videos/propositions/480p15/partial_movie_files/CreateQuote/1185818338_2210805553_223132457.mp4'
